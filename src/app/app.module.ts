@@ -10,9 +10,10 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SectionItemComponent } from './components/section-item/section-item.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, BannerComponent, AboutComponent, ExperienciaComponent, EducacionComponent, SkillsComponent, ProyectosComponent, FooterComponent],
+  declarations: [AppComponent, HeaderComponent, BannerComponent, AboutComponent, ExperienciaComponent, EducacionComponent, SkillsComponent, ProyectosComponent, FooterComponent, SectionItemComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
