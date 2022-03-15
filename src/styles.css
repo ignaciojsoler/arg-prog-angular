@@ -39,6 +39,8 @@ body {
   padding-top: 1em;
   padding-bottom: 1em;
   border-bottom: 1px solid rgba(128, 128, 128, 0.356);
+  border-right: 1px solid rgba(128, 128, 128, 0.356);
+  border-radius: 5px;
 }
 
 /*Media queries*/

@@ -6,6 +6,7 @@ footer {
   align-items: center;
   justify-content: end;
   width: 100%;
+  margin-top: 1em;
 }
 
 .scroll-back {
