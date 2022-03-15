@@ -10,6 +10,8 @@
   --html: #ff5733;
   --css: #264de4;
   --js: #f0db4f;
+  --ang: #dd1b16;
+  --react:  #61DBFB;
   scroll-behavior: smooth;
 }
 
@@ -36,22 +38,13 @@ body {
   margin-bottom: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.356);
 }
 
 /*Media queries*/
 @media only screen and (min-width: 480px) {
   .container {
     max-width: 95%;
-  }
-  .banner > img {
-    max-width: 95%;
-  }
-  .nav__logo-text {
-    display: block;
-    color: var(--light);
-    font-size: 1em;
-    font-weight: 500;
-    margin-left: 0.7em;
   }
 }
 
@@ -64,8 +57,8 @@ body {
     max-width: 90%;
   }
 
-  .exp {
-    font-size: 18px;
+  .section {
+    font-size: 17px;
   }
 }
 

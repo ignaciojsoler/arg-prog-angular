@@ -1,29 +1,55 @@
+.skills__grid {
+  display: block;
+}
+
 .skills__item {
   padding: 1em 0;
+}
+
+.skill__name {
+  font-size: 1em;
+  margin-bottom: 0.3em;
 }
 
 .skills__container {
   width: 100%;
   background-color: var(--mute);
+  border-radius: 5px;
 }
 
 .skills__percentage {
   text-align: right;
-  padding-top: 0.7em;
-  padding-bottom: 0.7em;
-  padding-right: 0.7em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
   color: white;
 }
 
 .html {
   width: 80%;
-  background-color: var(--html);
+  border-start-start-radius: 5px;
+  border-end-start-radius: 5px;
+  background-color: var(--primary);
 }
 .css {
   width: 90%;
-  background-color: var(--css);
+  border-start-start-radius: 5px;
+  border-end-start-radius: 5px;
+  background-color: var(--primary);
 }
 .js {
   width: 85%;
-  background-color: var(--js);
+  border-start-start-radius: 5px;
+  border-end-start-radius: 5px;
+  background-color: var(--primary);
+}
+
+@media only screen and (min-width: 768px) {
+  .skills__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 0px;
+  }
 }
