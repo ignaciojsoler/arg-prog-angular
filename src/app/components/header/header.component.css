@@ -1,0 +1,40 @@
+nav {
+  width: 100%;
+  background-color: var(--primary);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  height: 3.7em;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo-img {
+  height: 3em;
+}
+
+.nav__logo-text {
+  font-size: 2em;
+  display: none;
+}
+
+.nav__buttons {
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  font-size: 1.3em;
+}
+
+.nav__links > a {
+  text-decoration: none;
+  color: var(--light);
+  margin: auto 0.5em;
+}

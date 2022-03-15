@@ -1,0 +1,50 @@
+.section__title {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.section__item {
+  padding: 1em 0;
+  display: flex;
+}
+
+.section__ico > img {
+  height: 4em;
+  width: auto;
+  max-width: 4em;
+}
+
+.section__info {
+  padding-left: 0.8em;
+}
+
+.section__job {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 0.3em;
+}
+
+.section__description {
+  font-size: 0.9em;
+  line-height: 1.7em;
+}
+
+.section__period {
+  color: var(--secondary);
+  font-size: 0.9em;
+  line-height: 1.7em;
+}
+
+.section__link {
+  display: block;
+  margin: 0.1em auto;
+  font-size: 1em;
+  line-height: 1.7em;
+  text-decoration: none;
+  color: var(--info);
+  font-weight: bold;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}

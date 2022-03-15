@@ -1,0 +1,10 @@
+.banner {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 8em;
+  margin-bottom: -12px;
+  background-image: url(../../../assets/banner.jpg);
+  background-size: cover;
+}

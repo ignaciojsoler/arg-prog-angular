@@ -1,1 +1,85 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+  --primary: #007bb5;
+  --secondary: #716a69;
+  --mute: #ebebeb;
+  --info: #00a0dc;
+  --dark: #000000;
+  --light: #ffffff;
+  --html: #ff5733;
+  --css: #264de4;
+  --js: #f0db4f;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--mute);
+}
+
+.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section {
+  background-color: var(--light);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+/*Habilidades*/
+
+
+/*Footer*/
+
+
+
+/*Media queries*/
+@media only screen and (min-width: 480px) {
+  .container {
+    max-width: 95%;
+  }
+  .banner > img {
+    max-width: 95%;
+  }
+  .nav__logo-text {
+    display: block;
+    color: var(--light);
+    font-size: 1em;
+    font-weight: 500;
+    margin-left: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .exp {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+  .container {
+    max-width: 80%;
+  }
+}

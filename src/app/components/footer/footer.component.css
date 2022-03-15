@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--primary);
+  height: 3.7em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+
+.scroll-back {
+  color: var(--light);
+  padding: 0.5em;
+  font-size: 1.3em;
+}

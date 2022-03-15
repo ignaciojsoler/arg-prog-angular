@@ -1,0 +1,29 @@
+.skills__item {
+  padding: 1em 0;
+}
+
+.skills__container {
+  width: 100%;
+  background-color: var(--mute);
+}
+
+.skills__percentage {
+  text-align: right;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-right: 0.7em;
+  color: white;
+}
+
+.html {
+  width: 80%;
+  background-color: var(--html);
+}
+.css {
+  width: 90%;
+  background-color: var(--css);
+}
+.js {
+  width: 85%;
+  background-color: var(--js);
+}
