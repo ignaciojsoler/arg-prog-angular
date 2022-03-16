@@ -1,25 +1,49 @@
 {
-    "id": 1,
-    "nombre": "Leanne Graham",
-    "ocupation": "CEO at Advesa",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
-    "backImage": "https://pbs.twimg.com/profile_images/1419423317228916737/OmQ6lBCX_400x400.jpg",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
+  "id": 1,
+  "nombre": "Ignacio Soler",
+  "ocupation": "Full Stack Developer Jr",
+  "empresa": "Krono Records",
+  "location": "Santa Fe, Argentina",
+  "descripcion": "Estudiante de desarrollo web full stack. Apasionado por la tecnología y el aprendizaje continuo.",
+  "backImage": "https://pbs.twimg.com/profile_images/1419423317228916737/OmQ6lBCX_400x400.jpg",
+  "experiencia": [
+    {
+      "imagenUrl": "https://media-exp1.licdn.com/dms/image/C4E0BAQHhtk2LatymBA/company-logo_200_200/0/1627578903617?e=1655337600&v=beta&t=ipqhwzbU5MdL-BCRlJZqfIWIZaA67K9jhogt1NIxKi8",
+      "posicion": "Senior Sound Designer/Composer",
+      "descripcion": "Composición de música original y diseño de sonido para publicidades y cine.",
+      "periodo": "feb. 2021 - ene. 2022"
     },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
-    "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
-      "bs": "harness real-time e-markets"
+    {
+      "imagenUrl": "https://media-exp1.licdn.com/dms/image/C510BAQFtH2ulq31ayQ/company-logo_200_200/0/1526284955885?e=1655337600&v=beta&t=k6ybcIfCl6oVL-kVAaNgJPI3z-L-b3HOTVwhTEQH1ss",
+      "posicion": "Senior Sound Designer/Composer",
+      "descripcion": "Composición de música original y diseño de sonido para cine y videojuegos.",
+      "periodo": "jul. 2018 - actualidad · 3 años 9 meses"
+    },
+    {
+      "imagenUrl": "https://media-exp1.licdn.com/dms/image/C4E0BAQFmFoGOKiwZwA/company-logo_200_200/0/1519872515576?e=1655337600&v=beta&t=nl6m6DnCmM2PomUuQFJNHqqkyONz5dVTO2ptJ9odF0E",
+      "posicion": "2D character animator",
+      "descripcion": "Animación de personajes y backgrounds para videojuegos.",
+      "periodo": "ago. 2020 - ene. 2021 · 6 meses"
     }
+  ],
+  "educacion": [
+    {
+      "imagenUrl": "https://media-exp1.licdn.com/dms/image/C4E03AQF66l8DV-k7yQ/profile-displayphoto-shrink_200_200/0/1635256297569?e=1652918400&v=beta&t=XMc2OzPEbkDMDUTt4rO9LaPa2AnhftF1qKV5pwntOBo",
+      "institucion": "ISPC Instituto Superior Politécnico Córdoba",
+      "titulo": "Desarrollo Web y Aplicaciones Digitales.",
+      "periodo": "2022 - 2024"
+    },
+    {
+      "imagenUrl": "https://media-exp1.licdn.com/dms/image/C560BAQHYPsaxEHY6Ow/company-logo_200_200/0/1554474798734?e=1655337600&v=beta&t=sHmQ9B-l3WQlhpMfDyf-eQI7LE6fCY6sAdQEaC9VeGI",
+      "institucion": "Universidad Nacional del Litoral",
+      "titulo": "Licenciatura en Teoría de la música y composición.",
+      "periodo": "2015 - 2021"
+    },
+    {
+      "imagenUrl": "https://media-exp1.licdn.com/dms/image/C5103AQEiyFno9AKubQ/profile-displayphoto-shrink_800_800/0/1517355387566?e=1652918400&v=beta&t=moy7d4ITm1N_FcilAgsHvOw2rstP46xmtUkW-vCyN60",
+      "institucion": "IAC Instituto Argentino de Computación",
+      "titulo": "Desarrollo Web Full Stack.",
+      "periodo": "2021 - 2022"
+    }
+  ]
 }

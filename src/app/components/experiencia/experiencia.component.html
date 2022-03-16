@@ -1,41 +1,20 @@
 <section class="section container">
-    <h3 class="section__title">Experiencia</h3>
+  <h3 class="section__title">Experiencia</h3>
 
-    <!--Item component-->
-    <app-section-item></app-section-item>
-    
+  <!--Item component-->
 
-    <article class="section__item">
+  <ul class="items-list">
+    <li *ngFor="let trabajo of experienciaLista" class="section__item">
       <div class="section__ico">
-        <img
-          src="https://media-exp1.licdn.com/dms/image/C510BAQFtH2ulq31ayQ/company-logo_200_200/0/1526284955885?e=1655337600&v=beta&t=k6ybcIfCl6oVL-kVAaNgJPI3z-L-b3HOTVwhTEQH1ss"
-          alt=""
-        />
+        <img [src]="trabajo.imagenUrl" alt="" />
       </div>
       <div class="section__info">
-        <div class="section__job">Senior Sound Designer/Composer</div>
+        <div class="section__job">{{ trabajo.posicion }}</div>
         <div class="section__description">
-          Composición de música original y diseño de sonido para cine y
-          videojuegos.
+          {{ trabajo.descripcion }}
         </div>
-        <div class="section__period">jul. 2018 - actualidad · 3 años 9 meses</div>
+        <div class="section__period">{{ trabajo.periodo }}</div>
       </div>
-    </article>
-
-    <article class="section__item">
-      <div class="section__ico">
-        <img
-          src="https://media-exp1.licdn.com/dms/image/C4E0BAQFmFoGOKiwZwA/company-logo_200_200/0/1519872515576?e=1655337600&v=beta&t=nl6m6DnCmM2PomUuQFJNHqqkyONz5dVTO2ptJ9odF0E"
-          alt=""
-        />
-      </div>
-      <div class="section__info">
-        <div class="section__job">2D character animator</div>
-        <div class="section__description">
-          Animación de personajes y backgrounds para videojuegos.
-        </div>
-        <div class="section__period">ago. 2020 - ene. 2021 · 6 meses</div>
-      </div>
-    </article>
-
-  </section>
+    </li>
+  </ul>
+</section>
