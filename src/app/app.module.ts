@@ -12,9 +12,10 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SectionItemComponent } from './components/section-item/section-item.component';
 import { CardComponent } from './components/card/card.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, BannerComponent, AboutComponent, ExperienciaComponent, EducacionComponent, SkillsComponent, ProyectosComponent, FooterComponent, SectionItemComponent, CardComponent],
+  declarations: [AppComponent, HeaderComponent, BannerComponent, AboutComponent, ExperienciaComponent, EducacionComponent, SkillsComponent, ProyectosComponent, FooterComponent, SectionItemComponent, CardComponent, NavbarComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
