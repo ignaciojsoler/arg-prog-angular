@@ -1,56 +1,10 @@
-.card {
-    border-radius: 0px 0px 5px 5px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.356);
-    border-right: 1px solid rgba(128, 128, 128, 0.356);
-    background-color: var(--light);
-    margin-top: 0;
-  }
-  
-  .card__circle-button {
-    top: -6em;
-    position: relative;
-  }
-  
-  .card__profile {
-    width: 152px;
-    height: 152px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: 5px solid var(--light);
-  }
-  .card__profile-img {
-    width: auto;
-    height: 100%;
-  }
-  
-  .card__info {
-    position: relative;
-    margin-top: -85px;
-    padding-bottom: 2em;
-  }
-  
-  .card__name {
-    font-size: 1.5em;
-    font-weight: 500;
-  }
-  
-  .card__job {
-    font-size: 1.1em;
-    font-weight: 400;
-    margin-top: 0.6em;
-  }
-  
-  .card__education,
-  .card__location {
-    font-size: 1em;
-    font-weight: 400;
-    margin-top: 0.6em;
-    color: var(--secondary);
-  }
-  
-  .card__info > p {
-    font-size: 1em;
-    font-weight: 400;
-    margin-top: 0.6em;
-  }
-  
+.section__title {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+p {
+  margin-top: 0.6em;
+  font-size: 1em;
+  line-height: 1.4em;
+}

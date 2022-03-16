@@ -11,9 +11,10 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SectionItemComponent } from './components/section-item/section-item.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, BannerComponent, AboutComponent, ExperienciaComponent, EducacionComponent, SkillsComponent, ProyectosComponent, FooterComponent, SectionItemComponent],
+  declarations: [AppComponent, HeaderComponent, BannerComponent, AboutComponent, ExperienciaComponent, EducacionComponent, SkillsComponent, ProyectosComponent, FooterComponent, SectionItemComponent, CardComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
