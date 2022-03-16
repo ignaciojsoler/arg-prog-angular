@@ -1,4 +1,5 @@
 .banner {
+  border-radius: 5px 5px 0px 0px;
   overflow: hidden;
   width: 100%;
   display: flex;
@@ -9,7 +10,7 @@
   background-size: cover;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 480px) {
   .banner {
     margin-top: 1em;
   }
